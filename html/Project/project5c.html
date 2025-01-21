@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <form action="contact.me">
+        <ol>
+            <li><h3>Objective</h3>
+                <textarea name="objective" id="objective">Please write here...</textarea>
+            </li>
+
+            <li><h3>Personal Information</h3>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Enter Name" required="true"><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Enter Address" required="true"><br>
+
+                <label for="Contact">Contact No.:</label>
+                <input type="text" id="Contact" placeholder="Enter contact" required="true"><br>
+
+                
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter email" required="true"><br>
+            </li>
+
+            <li><h3>Education Details</h3>
+                <label for="current">Education:</label>
+                <input type="text" id="current" placeholder="Enter education" required="true"><br>
+
+                <label for="grade">Grade:</label>
+                <input type="text" id="grade" placeholder="Enter grade" required="true"><br>
+
+                <label for="college">Institute:</label>
+                <input type="text" id="college" placeholder="Enter grade" required="true"><br>
+            </li>
+
+            <li><h3>Experience:</h3>
+                <label for="internship">Internship/Training:</label>
+                <textarea name="internship" id="internship">
+                    Write here...
+                </textarea><br>
+                <label for="project">Project:</label>
+                <textarea name="project" id="project">
+                    Write here...
+                </textarea>
+            </li>
+
+            <li><h3>Skills:</h3>
+                <label for="skills1">Technical skills/tools:</label>
+                <input type="text" id="skills1" placeholder="Enter here" required="true"><br>
+
+                <label for="skills2">Soft-skills:</label>
+                <input type="text" id="skills2" placeholder="Enter here" required="true"><br>
+            </li>
+            
+            <li><h3>Hobbies:</h3>
+                <textarea name="hobbies" id="hobbies">
+                    Write here...
+                </textarea>
+            </li>
+            <li><h3>References</h3>
+                <ol type="i">
+                <li><label for="name1">Name:</label> 
+                    <input type="text" id="name1" placeholder="Enter name" required="true"> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="contact1">Contact details:</label>
+                    <input type="text" id="contact1" placeholder="Enter contact" required="true">
+                </li>
+                <li><label for="name2">Name:</label> 
+                    <input type="text" id="name2" placeholder="Enter name" required="true"> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="contact2">Contact details:</label>
+                    <input type="text" id="contact2" placeholder="Enter contact" required="true">
+                </li>
+                </ol>
+            </li>
+        </ol>
+        <input type="submit" value="Submit"><br>
+    </form>
+</body>
+</html>
